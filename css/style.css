@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    font-size: 1em;
+    background: #e6e6e6;
+}
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    transition: .3s;
+}
+
+#area_cabecalho a:link, #area_cabecalho a:visited{
+    color: #fff;
+    padding: 8px 12px;
+}
+
+#area_cabecalho a:hover{
+    color: #f7b600;
+    background: #fff;
+    transition: .3s;
+}
+
+.branco{
+    color: #fff;
+}
+
+#area_cabecalho{
+    background: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+#area_logo, #area_menu{
+    padding: 10px;
+}
+
+#area_principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 10px;
+}
+#area_postagem{
+    width: 660px;
+    background: #fff;
+    float: left;
+}
+#area_lateral{
+    width: 240px;
+    background: #fff;
+    float: right;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+.postagem h2{
+    color: #f7b600;
+    text-transform: uppercase;
+}
+.postagem span{
+    display: block;
+    color: #7f8c8d;
+    font-size: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.postagem p{
+    text-align: justify;
+    color: #7f8c8d;
+}
+.postagem img{
+    height: 200px;
+    object-fit: cover;
+}
+.postagem a{
+    background: #f7b600;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    transition: .3s;
+}
+.postagem a:hover{
+    background: #cf9902;
+    transition: .3s;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+.conteudo_lateral{
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.conteudo_lateral h3{
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+.conteudo_lateral ul li{
+    list-style: none;
+    padding-left: 10px;
+}
+.conteudo_lateral a:visited, .conteudo_lateral a:link{
+    color: #f7b600;
+}
+.conteudo_lateral a:hover{
+    color: #cf9902;
+}
+.postagem_lateral{
+    font-size: 0.8em;
+    padding: 5px;
+}
